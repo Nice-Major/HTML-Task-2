@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dasboard - PiggyVest</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="imageCircle">
+    <img src="./backg_circle.png" alt="background_image_1">
+  </div>
+  <div id="image2">
+    <img src="./backg_2.png" alt="background_image_2">
+  </div>
+  <div id="image3">
+    <img src="./backg_3.png" alt="background_image_3">
+  </div>
+  <div id="image4">
+    <img src="./backg_4.png" alt="background_image_4">
+  </div>
+  <div id="container">
+    <a href="https://www.piggyvest.com/">
+      <img src="./piggyvest-logo.svg" alt="Piggyvest_logo"></a>
+      <br> 
+    <div class="form_wrap">
+          <header>
+            <h1>Create a Secure  Account</h1>
+            <p>Welcome to the future of Savings & Investments</p>
+          </header>
+          <br>
+        <form action="POST">
+          <div class="form_group">
+            <label for="field1">Full Name</label><br>
+            <input type="text" name="fullName" placeholder="Full Name" id="field1">
+          </div>
+          <br>
+          <div class="form_group">
+            <label for="field2">Email Address</label><br>
+            <input type="email" name="Email" id="field2" placeholder="Example@gmail.com">
+          </div>
+          <br>
+          <div class="form_group">
+            <label for="field3">Phone Number</label><br>
+            <input type="number" name="phoneNumber" placeholder="Phone Number" id="field3">
+          </div>
+          <br>
+          <div class="form_group">
+            <label for="field4">Password</label><br>
+            <input type="password" name="password" id="field4" placeholder="Password">
+          </div>
+          <br>
+          <div class="form_group">
+            <label for="field5">Referrer Phone or promo Code (Optional)</label><br>
+            <input type="text" name="code" id="field5" placeholder="Referrer Phone Or Code">
+          </div>
+          <br>
+          <div class="form_group">
+            <label for="field6">How did you hear about us? (Optional)</label><br>
+            <select name="Publicity" id="field6">
+              <option value="" selected>Click to Select</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Twitter">Twitter</option>
+              <option value="Instagram">Instagram</option>
+              <option value="Referral">Family/Friend/Coworker Referral</option>
+              <option value="Blog">Online Blogpost</option>
+              <option value="Search">Google Search</option>
+              <option value="Playstore">Google Playstore</option>
+              <option value="News">Local Newspaper</option>
+            </select>
+          </div>
+          <br>
+          <button type="Submit" id="btn1" >CREATE ACCOUNT</button>
+        </form>
+    </div>
+      <footer>
+        <p><a href="https://dashboard.piggyvest.com/login">Already have an Account? Log in</a></p>
+      </footer>
+  </div>
+</body>
+</html>
